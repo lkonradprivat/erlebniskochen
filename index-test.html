@@ -1,0 +1,90 @@
+<!doctype html>
+<html lang="de">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Erlebniskochen – Zutatenauswahl testen</title>
+<style>
+body{font:16px system-ui;background:#f5f7f3;color:#17332d;max-width:700px;margin:auto;padding:20px}
+h1{font-size:1.5rem}
+.card{background:white;border:1px solid #d9e3db;border-radius:12px;padding:16px;margin:14px 0}
+label{display:block;margin:10px 0}
+select{width:100%;padding:10px;font:inherit}
+button{background:#245b50;color:white;border:0;border-radius:8px;padding:12px;font:inherit}
+small{color:#566b61}
+</style>
+</head>
+<body>
+<h1>🍞 Erlebniskochen – Test</h1>
+<p>Hier testen wir die Rezeptauswahl. Deine gespeicherten Daten werden nicht verändert.</p>
+<div class="card">
+<label for="rezept">Rezept</label>
+<select id="rezept"></select>
+<div id="auswahl"></div>
+</div>
+<div class="card">
+<h2>Einkaufsliste</h2>
+<div id="liste"></div>
+</div>
+<script>
+let rezepte=[],werte={};
+const $=id=>document.getElementById(id);
+const esc=s=>String(s??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+function parse(s,owner){
+ let m=String(s).match(/^([0-9¼½¾.,– -]+)\s*([^ ]*)\s+(.+)$/);
+ return {name:m?m[3]:s,menge:m?(m[1]+' '+m[2]):'',owner};
+}
+function anzeigen(){
+ const r=rezepte[Number($('rezept').value)];
+ if(!r)return;
+ werte={};
+ let html='';
+ (r.choices||[]).forEach((g,i)=>{
+  html+='<label>'+esc(g.name)+'</label><select data-wahl="'+i+'">';
+  html+='<option value="">Bitte auswählen</option>';
+  (g.options||[]).forEach((o,j)=>html+='<option value="'+j+'">'+esc(o)+'</option>');
+  html+='</select>';
+ });
+ (r.optional||[]).forEach((o,i)=>{
+  html+='<label><input type="checkbox" data-extra="'+i+'"> '+esc(o.name||o)+'</label>';
+ });
+ $('auswahl').innerHTML=html;
+ $('auswahl').querySelectorAll('select,input').forEach(x=>x.onchange=liste);
+ liste();
+}
+function liste(){
+ const r=rezepte[Number($('rezept').value)];
+ let zutaten=[...(r.ingredients||[])];
+ let fehlt=false;
+ $('auswahl').querySelectorAll('[data-wahl]').forEach(x=>{
+  let g=r.choices[Number(x.dataset.wahl)];
+  if(x.value===''){fehlt=true;return}
+  let o=g.options[Number(x.value)];
+  if(!/^ohne\b/i.test(o))zutaten.push(parse(o,g.owner||'GG'));
+ });
+ $('auswahl').querySelectorAll('[data-extra]').forEach(x=>{
+  if(x.checked){let o=r.optional[Number(x.dataset.extra)];zutaten.push(parse(o.name||o,o.owner||'GG'))}
+ });
+ let html=fehlt?'<p><strong>Bitte zuerst alle Pflichtauswahlen treffen.</strong></p>':'';
+ ['GG','TR'].forEach(owner=>{
+  html+='<h3>'+(owner==='GG'?'Gastgeberin':'Repräsentantin')+'</h3><ul>';
+  zutaten.filter(z=>z.owner===owner).forEach(z=>{
+   html+='<li>'+esc(z.menge?z.menge+' '+z.name:(z.quantity??'')+' '+(z.unit||'')+' '+z.name)+'</li>';
+  });
+  html+='</ul>';
+ });
+ $('liste').innerHTML=html;
+}
+fetch('./rezeptbibliothek.json',{cache:'no-store'})
+ .then(r=>{if(!r.ok)throw Error('Datei nicht gefunden');return r.json()})
+ .then(data=>{
+  rezepte=data.recipes||[];
+  if(!rezepte.length)throw Error('Keine Rezepte vorhanden');
+  $('rezept').innerHTML=rezepte.map((r,i)=>'<option value="'+i+'">'+esc(r.name)+'</option>').join('');
+  $('rezept').onchange=anzeigen;
+  anzeigen();
+ })
+ .catch(e=>$('auswahl').textContent='Fehler: '+e.message);
+</script>
+</body>
+</html>
