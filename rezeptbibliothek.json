@@ -1,6 +1,415 @@
 {
   "format": "erlebniskochen-library",
   "schema": 3,
-  "recipes": [],
-  "menus": []
+  "recipes": [
+    {
+      "id": "ek-vorlage-eis",
+      "name": "Eis – Erlebniskochen",
+      "category": "Eis",
+      "ingredients": [
+        {
+          "quantity": 60,
+          "unit": "g",
+          "name": "Zucker",
+          "owner": "GG"
+        }
+      ],
+      "choices": [
+        {
+          "name": "Tiefgekühlte Früchte",
+          "owner": "GG",
+          "options": [
+            "300 g Beerenmix",
+            "300 g Erdbeeren",
+            "300 g Mango",
+            "300 g Himbeeren",
+            "300 g Heidelbeeren"
+          ]
+        },
+        {
+          "name": "Cremige oder luftige Zutat",
+          "owner": "GG",
+          "options": [
+            "100 g Joghurt",
+            "100 g Sahne",
+            "100 g vegane Alternative",
+            "1–2 frische Eiweiß"
+          ]
+        }
+      ],
+      "optional": [
+        {
+          "name": "3–5 frische Minzblätter",
+          "owner": "TR"
+        },
+        {
+          "name": "1 Streifen unbehandelte Limetten- oder Zitronenschale",
+          "owner": "TR"
+        }
+      ]
+    },
+    {
+      "id": "ek-vorlage-brot",
+      "name": "Brot – Erlebniskochen",
+      "category": "Brot",
+      "ingredients": [
+        {
+          "quantity": 400,
+          "unit": "g",
+          "name": "Mehl",
+          "owner": "GG"
+        },
+        {
+          "quantity": 10,
+          "unit": "g",
+          "name": "Salz",
+          "owner": "GG"
+        },
+        {
+          "quantity": 40,
+          "unit": "g",
+          "name": "Öl",
+          "owner": "GG"
+        },
+        {
+          "quantity": 1,
+          "unit": "Prise",
+          "name": "Zucker",
+          "owner": "GG"
+        },
+        {
+          "quantity": 1,
+          "unit": "",
+          "name": "Backpapier",
+          "owner": "GG"
+        },
+        {
+          "quantity": 100,
+          "unit": "g",
+          "name": "Haferflocken, kernig",
+          "owner": "TR"
+        },
+        {
+          "quantity": 40,
+          "unit": "–42 g",
+          "name": "frische Hefe",
+          "owner": "TR"
+        }
+      ],
+      "choices": [
+        {
+          "name": "Speck",
+          "owner": "GG",
+          "options": [
+            "200 g Speckwürfel",
+            "ohne Speck"
+          ],
+          "optional": true
+        },
+        {
+          "name": "Käse",
+          "owner": "GG",
+          "options": [
+            "150 g Gouda",
+            "150 g Bergkäse",
+            "ohne Käse"
+          ],
+          "optional": true
+        }
+      ]
+    },
+    {
+      "id": "ek-vorlage-dip",
+      "name": "Dip – Erlebniskochen",
+      "category": "Dip",
+      "ingredients": [
+        {
+          "quantity": 0.25,
+          "unit": "TL",
+          "name": "Salz",
+          "owner": "GG"
+        }
+      ],
+      "choices": [
+        {
+          "name": "Schärfe",
+          "owner": "GG",
+          "options": [
+            "¼ TL Cayenne-Pfeffer",
+            "½ TL Chiliflocken"
+          ]
+        },
+        {
+          "name": "Frischkäse",
+          "owner": "GG",
+          "options": [
+            "150 g Frischkäse",
+            "150 g vegane Alternative"
+          ]
+        },
+        {
+          "name": "Schmand",
+          "owner": "GG",
+          "options": [
+            "100 g Schmand",
+            "100 g vegane Alternative"
+          ]
+        },
+        {
+          "name": "Gewürz",
+          "owner": "GG",
+          "options": [
+            "1 TL Currypulver",
+            "1 TL Thymian, getrocknet"
+          ]
+        },
+        {
+          "name": "Getrocknete Früchte oder Gemüse",
+          "owner": "TR",
+          "options": [
+            "80 g Datteln",
+            "80 g Aprikosen",
+            "80 g Feigen",
+            "80 g Tomaten in Öl, abgetropft"
+          ]
+        }
+      ],
+      "optional": [
+        {
+          "name": "1 Knoblauchzehe",
+          "owner": "TR"
+        },
+        {
+          "name": "40 g Oliven, in Scheiben",
+          "owner": "TR"
+        }
+      ]
+    },
+    {
+      "id": "ek-vorlage-salat",
+      "name": "Salat – Erlebniskochen",
+      "category": "Salat",
+      "ingredients": [
+        {
+          "quantity": 15,
+          "unit": "g",
+          "name": "Olivenöl",
+          "owner": "GG"
+        },
+        {
+          "quantity": 1.5,
+          "unit": "TL",
+          "name": "Senf",
+          "owner": "GG"
+        }
+      ],
+      "choices": [
+        {
+          "name": "Salz",
+          "owner": "GG",
+          "options": [
+            "1 TL Salz",
+            "1 TL Kräutersalz"
+          ]
+        },
+        {
+          "name": "Pfeffer oder Chili",
+          "owner": "GG",
+          "options": [
+            "½ TL Pfeffer",
+            "½ TL Chiliflocken"
+          ]
+        },
+        {
+          "name": "Essig",
+          "owner": "GG",
+          "options": [
+            "10 g Obstessig",
+            "10 g heller Balsamico"
+          ]
+        },
+        {
+          "name": "Süße",
+          "owner": "GG",
+          "options": [
+            "10 g Honig",
+            "10 g Agavendicksaft"
+          ]
+        },
+        {
+          "name": "Hartes Gemüse",
+          "owner": "TR",
+          "options": [
+            "200 g Brokkoli",
+            "200 g Möhren"
+          ]
+        },
+        {
+          "name": "Weiches Gemüse",
+          "owner": "TR",
+          "options": [
+            "140 g Paprika",
+            "140 g Zucchini"
+          ]
+        },
+        {
+          "name": "Obst",
+          "owner": "TR",
+          "options": [
+            "120 g Apfel",
+            "120 g Orange"
+          ]
+        },
+        {
+          "name": "Kerne",
+          "owner": "TR",
+          "options": [
+            "20 g Pinienkerne",
+            "20 g Sonnenblumenkerne",
+            "ohne Kerne"
+          ],
+          "optional": true
+        },
+        {
+          "name": "Cremige Ergänzung",
+          "owner": "GG",
+          "options": [
+            "100 g Joghurt",
+            "100 g Schmand",
+            "100 g vegane Alternative",
+            "ohne Ergänzung"
+          ],
+          "optional": true
+        }
+      ]
+    },
+    {
+      "id": "ek-vorlage-haupt",
+      "name": "Hauptgericht – Erlebniskochen",
+      "category": "Hauptgericht",
+      "ingredients": [
+        {
+          "quantity": 20,
+          "unit": "g",
+          "name": "Öl",
+          "owner": "GG"
+        },
+        {
+          "quantity": 0.5,
+          "unit": "TL",
+          "name": "Salz",
+          "owner": "GG"
+        },
+        {
+          "quantity": 3,
+          "unit": "Prisen",
+          "name": "Pfeffer",
+          "owner": "GG"
+        },
+        {
+          "quantity": 200,
+          "unit": "g",
+          "name": "Kartoffeln",
+          "owner": "TR"
+        },
+        {
+          "quantity": 15,
+          "unit": "g",
+          "name": "Röstzwiebeln",
+          "owner": "TR"
+        },
+        {
+          "quantity": 40,
+          "unit": "g",
+          "name": "Zwiebel, halbiert",
+          "owner": "TR"
+        }
+      ],
+      "choices": [
+        {
+          "name": "Reis",
+          "owner": "GG",
+          "options": [
+            "100–250 g loser Parboiled Reis (Menge festlegen)"
+          ]
+        },
+        {
+          "name": "Bindung",
+          "owner": "GG",
+          "options": [
+            "30 g Weizenmehl",
+            "15 g Speisestärke"
+          ]
+        },
+        {
+          "name": "Gemüsebrühe",
+          "owner": "TR",
+          "options": [
+            "2 gehäufte TL selbst gemachte Gemüsebrühe-Gewürzpaste",
+            "2 Gemüsebrühwürfel (für je 0,5 l)"
+          ]
+        },
+        {
+          "name": "Schmand",
+          "owner": "GG",
+          "options": [
+            "100 g Schmand",
+            "100 g vegane Alternative"
+          ]
+        },
+        {
+          "name": "Gemüse",
+          "owner": "TR",
+          "options": [
+            "500 g Möhren",
+            "500 g Zucchini",
+            "500 g Paprika",
+            "500 g Kohlrabi",
+            "500 g sonstiges Gemüse",
+            "500 g gemischte Auswahl"
+          ]
+        }
+      ],
+      "optional": [
+        {
+          "name": "1 Knoblauchzehe für die Sauce",
+          "owner": "TR"
+        },
+        {
+          "name": "600 g Hähnchenbrustfilet",
+          "owner": "GG"
+        },
+        {
+          "name": "1 EL Öl (für Hähnchen)",
+          "owner": "GG"
+        },
+        {
+          "name": "½ TL Salz (für Hähnchen)",
+          "owner": "GG"
+        },
+        {
+          "name": "¼ TL Pfeffer (für Hähnchen)",
+          "owner": "GG"
+        },
+        {
+          "name": "½ TL Paprika edelsüß (für Hähnchen)",
+          "owner": "GG"
+        }
+      ]
+    }
+  ],
+  "menus": [
+    {
+      "id": "ek-vorlage-klassisch",
+      "name": "Klassisches Erlebniskochen – PDF-Vorlage",
+      "type": "classic",
+      "recipeIds": [
+        "ek-vorlage-eis",
+        "ek-vorlage-brot",
+        "ek-vorlage-dip",
+        "ek-vorlage-salat",
+        "ek-vorlage-haupt"
+      ]
+    }
+  ]
 }
