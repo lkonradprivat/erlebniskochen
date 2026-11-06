@@ -1,0 +1,88 @@
+{
+  "format": "erlebniskochen-aktionszeitraeume-v1",
+  "periods": [
+    {
+      "name": "Summer Date – Test",
+      "slots": [
+        {
+          "label": "Sommer-Dip",
+          "category": "Sommer-Dip"
+        },
+        {
+          "label": "Sommer-Getränk",
+          "category": "Sommer-Getränk"
+        }
+      ],
+      "recipeNames": [
+        "Sommer-Kräuterdip",
+        "Tomaten-Frischkäse-Dip",
+        "Zitronenlimonade"
+      ]
+    }
+  ],
+  "recipes": [
+    {
+      "name": "Sommer-Kräuterdip",
+      "category": "Sommer-Dip",
+      "ingredients": [
+        {
+          "text": "200 g Quark",
+          "owner": "GG",
+          "optional": false
+        },
+        {
+          "text": "1 Prise Salz",
+          "owner": "GG",
+          "optional": false
+        },
+        {
+          "text": "frische Kräuter",
+          "owner": "TR",
+          "optional": false
+        },
+        {
+          "text": "1 Knoblauchzehe",
+          "owner": "TR",
+          "optional": true
+        }
+      ]
+    },
+    {
+      "name": "Tomaten-Frischkäse-Dip",
+      "category": "Sommer-Dip",
+      "ingredients": [
+        {
+          "text": "150 g Frischkäse",
+          "owner": "GG",
+          "optional": false
+        },
+        {
+          "text": "2 EL Tomatenmark",
+          "owner": "TR",
+          "optional": false
+        }
+      ]
+    },
+    {
+      "name": "Zitronenlimonade",
+      "category": "Sommer-Getränk",
+      "ingredients": [
+        {
+          "text": "500 ml Mineralwasser",
+          "owner": "GG",
+          "optional": false
+        },
+        {
+          "text": "2 Zitronen",
+          "owner": "TR",
+          "optional": false
+        },
+        {
+          "text": "frische Minze",
+          "owner": "TR",
+          "optional": true
+        }
+      ]
+    }
+  ]
+}
