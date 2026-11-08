@@ -28,6 +28,34 @@
         "Focaccia mit Tomaten",
         "Möhrensalat mit Thermomix Gemüse Styler®"
       ]
+    },
+    {
+      "name": "Herbst Date",
+      "slots": [
+        {
+          "label": "Getränk",
+          "category": "Herbst Date – Getränk"
+        },
+        {
+          "label": "Snack / Dessert",
+          "category": "Herbst Date – Snack / Dessert"
+        },
+        {
+          "label": "Suppe / Hauptgericht / Dessert",
+          "category": "Herbst Date – Suppe / Hauptgericht / Dessert"
+        }
+      ],
+      "recipeNames": [
+        "Apfel-Birnen-Detox-Smoothie",
+        "Heiße Schokolade",
+        "Fruchtsaft mit Herbstobst",
+        "Coleslaw mit Thermomix® Gemüse Styler",
+        "Apfel-Zimt-Muffins mit Streuseln",
+        "Schokoladen-Mousse",
+        "Kürbis-Orangen-Suppe mit Ingwer",
+        "Sahne-Grießpudding",
+        "G’schwindes Kürbisrisotto"
+      ]
     }
   ],
   "recipes": [
@@ -415,6 +443,345 @@
         },
         {
           "text": "3 Stängel Petersilie, abgezupft",
+          "owner": "TR",
+          "optional": false
+        }
+      ]
+    },
+    {
+      "name": "Apfel-Birnen-Detox-Smoothie",
+      "category": "Herbst Date – Getränk",
+      "ingredients": [
+        {
+          "text": "3 Eiswürfel",
+          "owner": "GG",
+          "optional": false
+        },
+        {
+          "text": "1 Birne (ca. 120 g)",
+          "owner": "TR",
+          "optional": false
+        },
+        {
+          "text": "1 Apfel (ca. 100 g)",
+          "owner": "TR",
+          "optional": false
+        },
+        {
+          "text": "60 g frischer Blattspinat",
+          "owner": "TR",
+          "optional": false
+        },
+        {
+          "text": "3 Orangen, geschält, in Stücken (alternativ 300 g frisch gepresster Orangensaft)",
+          "owner": "TR",
+          "optional": false
+        }
+      ]
+    },
+    {
+      "name": "Heiße Schokolade",
+      "category": "Herbst Date – Getränk",
+      "ingredients": [
+        {
+          "text": "500 g Milch",
+          "owner": "GG",
+          "optional": false
+        },
+        {
+          "text": "100–150 g Schokolade",
+          "owner": "TR",
+          "optional": false
+        }
+      ]
+    },
+    {
+      "name": "Fruchtsaft mit Herbstobst",
+      "category": "Herbst Date – Getränk",
+      "ingredients": [
+        {
+          "text": "80 g Zucker",
+          "owner": "GG",
+          "optional": false
+        },
+        {
+          "text": "350 g reifes Obst, gemischt, z. B. Pflaumen, Birne, Apfel",
+          "owner": "TR",
+          "optional": false
+        },
+        {
+          "text": "30 g Zitronensaft (alternativ ½ geschälte Zitrone)",
+          "owner": "TR",
+          "optional": false
+        }
+      ]
+    },
+    {
+      "name": "Coleslaw mit Thermomix® Gemüse Styler",
+      "category": "Herbst Date – Snack / Dessert",
+      "ingredients": [
+        {
+          "text": "4 EL Mayonnaise",
+          "owner": "GG",
+          "optional": false
+        },
+        {
+          "text": "Salz und Pfeffer",
+          "owner": "GG",
+          "optional": false
+        },
+        {
+          "text": "100 g Apfel, grün, in Spalten",
+          "owner": "TR",
+          "optional": false
+        },
+        {
+          "text": "150 g Möhren",
+          "owner": "TR",
+          "optional": false
+        },
+        {
+          "text": "200 g Weißkohl, in 1–2 Spalten",
+          "owner": "TR",
+          "optional": false
+        },
+        {
+          "text": "½ rote Zwiebel",
+          "owner": "TR",
+          "optional": true
+        }
+      ]
+    },
+    {
+      "name": "Apfel-Zimt-Muffins mit Streuseln",
+      "category": "Herbst Date – Snack / Dessert",
+      "ingredients": [
+        {
+          "text": "160 g Butter",
+          "owner": "GG",
+          "optional": false
+        },
+        {
+          "text": "50 g Milch",
+          "owner": "GG",
+          "optional": false
+        },
+        {
+          "text": "60 g brauner Zucker",
+          "owner": "GG",
+          "optional": false
+        },
+        {
+          "text": "2 Eier, Größe M",
+          "owner": "GG",
+          "optional": false
+        },
+        {
+          "text": "240 g Mehl",
+          "owner": "GG",
+          "optional": false
+        },
+        {
+          "text": "1 TL Backpulver",
+          "owner": "GG",
+          "optional": false
+        },
+        {
+          "text": "1 TL Zimt",
+          "owner": "GG",
+          "optional": false
+        },
+        {
+          "text": "10 g Zucker",
+          "owner": "GG",
+          "optional": false
+        },
+        {
+          "text": "Puderzucker",
+          "owner": "GG",
+          "optional": true
+        },
+        {
+          "text": "200 g Äpfel, entkernt, in Stücken",
+          "owner": "TR",
+          "optional": false
+        },
+        {
+          "text": "50 g Mandeln, naturbelassen",
+          "owner": "TR",
+          "optional": false
+        },
+        {
+          "text": "2 TL Vanillezucker, selbstgemacht",
+          "owner": "TR",
+          "optional": false
+        }
+      ]
+    },
+    {
+      "name": "Schokoladen-Mousse",
+      "category": "Herbst Date – Snack / Dessert",
+      "ingredients": [
+        {
+          "text": "500 g fettreduzierte Sahnealternative zum Schlagen, 19 % Fett",
+          "owner": "GG",
+          "optional": false
+        },
+        {
+          "text": "100 g Zartbitter-Schokolade",
+          "owner": "TR",
+          "optional": false
+        },
+        {
+          "text": "120 g Schokoladen-Getränkepulver (z. B. Nesquik®)",
+          "owner": "TR",
+          "optional": false
+        }
+      ]
+    },
+    {
+      "name": "Kürbis-Orangen-Suppe mit Ingwer",
+      "category": "Herbst Date – Suppe / Hauptgericht / Dessert",
+      "ingredients": [
+        {
+          "text": "20 g Butter",
+          "owner": "GG",
+          "optional": false
+        },
+        {
+          "text": "Salz und Pfeffer",
+          "owner": "GG",
+          "optional": false
+        },
+        {
+          "text": "Muskat",
+          "owner": "GG",
+          "optional": false
+        },
+        {
+          "text": "100 g Orangensaft",
+          "owner": "GG",
+          "optional": false
+        },
+        {
+          "text": "100 g Sahne",
+          "owner": "GG",
+          "optional": false
+        },
+        {
+          "text": "60 g Zwiebel",
+          "owner": "TR",
+          "optional": false
+        },
+        {
+          "text": "1 Knoblauchzehe",
+          "owner": "TR",
+          "optional": false
+        },
+        {
+          "text": "10 g frischer Ingwer in dünnen Scheiben",
+          "owner": "TR",
+          "optional": false
+        },
+        {
+          "text": "1 rote Chilischote, frisch",
+          "owner": "TR",
+          "optional": false
+        },
+        {
+          "text": "150 g Möhren, in Stücken",
+          "owner": "TR",
+          "optional": false
+        },
+        {
+          "text": "400 g Hokkaido-Kürbis, entkernt, in Stücken",
+          "owner": "TR",
+          "optional": false
+        },
+        {
+          "text": "1 TL Gewürzpaste für Gemüsebrühe, selbstgemacht (alternativ 350 g Gemüsefond)",
+          "owner": "TR",
+          "optional": false
+        }
+      ]
+    },
+    {
+      "name": "Sahne-Grießpudding",
+      "category": "Herbst Date – Suppe / Hauptgericht / Dessert",
+      "ingredients": [
+        {
+          "text": "1 l Milch",
+          "owner": "GG",
+          "optional": false
+        },
+        {
+          "text": "300 g Sahne",
+          "owner": "GG",
+          "optional": false
+        },
+        {
+          "text": "100 g Zucker",
+          "owner": "GG",
+          "optional": false
+        },
+        {
+          "text": "200 g Hartweizengrieß",
+          "owner": "GG",
+          "optional": false
+        },
+        {
+          "text": "1 Prise Salz",
+          "owner": "GG",
+          "optional": false
+        }
+      ]
+    },
+    {
+      "name": "G’schwindes Kürbisrisotto",
+      "category": "Herbst Date – Suppe / Hauptgericht / Dessert",
+      "ingredients": [
+        {
+          "text": "60 g Hartkäse, z. B. Parmesan",
+          "owner": "GG",
+          "optional": false
+        },
+        {
+          "text": "125 g Risottoreis Arborio",
+          "owner": "GG",
+          "optional": false
+        },
+        {
+          "text": "90 g Weißwein",
+          "owner": "GG",
+          "optional": false
+        },
+        {
+          "text": "20 g Butter",
+          "owner": "GG",
+          "optional": false
+        },
+        {
+          "text": "Kreuzkümmel",
+          "owner": "GG",
+          "optional": false
+        },
+        {
+          "text": "Pfeffer",
+          "owner": "GG",
+          "optional": false
+        },
+        {
+          "text": "250 g Hokkaido-Kürbis, entkernt, in Stücken",
+          "owner": "TR",
+          "optional": false
+        },
+        {
+          "text": "100 g Zwiebeln, halbiert",
+          "owner": "TR",
+          "optional": false
+        },
+        {
+          "text": "2–3 TL Gewürzpaste für Gemüsebrühe, selbstgemacht (alternativ 1 Brühwürfel für Gemüsebrühe)",
           "owner": "TR",
           "optional": false
         }
