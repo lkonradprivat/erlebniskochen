@@ -5,82 +5,418 @@
       "name": "Summer Date",
       "slots": [
         {
-          "label": "Sommer-Dip",
-          "category": "Sommer-Dip"
+          "label": "Sommerlicher Kaffeeklatsch",
+          "category": "Sommerlicher Kaffeeklatsch"
         },
         {
-          "label": "Sommer-Getränk",
-          "category": "Sommer-Getränk"
+          "label": "Perfekt fürs Picknick",
+          "category": "Perfekt fürs Picknick"
+        },
+        {
+          "label": "Grillen mit Family & Friends",
+          "category": "Grillen mit Family & Friends"
         }
       ],
       "recipeNames": [
-        "Sommer-Kräuterdip",
-        "Tomaten-Frischkäse-Dip",
-        "Zitronenlimonade"
+        "Geeister Kaffeeschaum",
+        "Haferflocken-Kokos-Cookies",
+        "Schneller Gemüsesalat",
+        "Mango-Lassi",
+        "Schnelle Möhrenbrötchen zum Mitnehmen",
+        "Weißkohlrohkost",
+        "Kirscheis mit Schokostücken",
+        "Focaccia mit Tomaten",
+        "Möhrensalat mit Thermomix Gemüse Styler®"
       ]
     }
   ],
   "recipes": [
     {
-      "name": "Sommer-Kräuterdip",
-      "category": "Sommer-Dip",
+      "name": "Geeister Kaffeeschaum",
+      "category": "Sommerlicher Kaffeeklatsch",
       "ingredients": [
         {
-          "text": "200 g Quark",
+          "text": "80 g Zucker",
           "owner": "GG",
           "optional": false
         },
         {
-          "text": "1 Prise Salz",
+          "text": "4 EL Instant-Kaffeepulver (löslich)",
           "owner": "GG",
           "optional": false
         },
         {
-          "text": "frische Kräuter",
+          "text": "500 ml kalte Milch",
+          "owner": "GG",
+          "optional": false
+        },
+        {
+          "text": "260 g Eiswürfel",
+          "owner": "GG",
+          "optional": false
+        }
+      ]
+    },
+    {
+      "name": "Haferflocken-Kokos-Cookies",
+      "category": "Sommerlicher Kaffeeklatsch",
+      "ingredients": [
+        {
+          "text": "120 g Butter",
+          "owner": "GG",
+          "optional": false
+        },
+        {
+          "text": "100 g Speisesirup, hell (z. B. Grafschafter Goldsaft)",
+          "owner": "GG",
+          "optional": false
+        },
+        {
+          "text": "1 TL Natron",
+          "owner": "GG",
+          "optional": false
+        },
+        {
+          "text": "100 g Haferflocken, kernig",
+          "owner": "GG",
+          "optional": false
+        },
+        {
+          "text": "150 g Mehl",
+          "owner": "GG",
+          "optional": false
+        },
+        {
+          "text": "70 g brauner Zucker",
+          "owner": "GG",
+          "optional": false
+        },
+        {
+          "text": "50 g Kokosraspeln, ungesüßt",
+          "owner": "GG",
+          "optional": false
+        },
+        {
+          "text": "Backpapier",
+          "owner": "GG",
+          "optional": false
+        }
+      ]
+    },
+    {
+      "name": "Schneller Gemüsesalat",
+      "category": "Sommerlicher Kaffeeklatsch",
+      "ingredients": [
+        {
+          "text": "60 g Öl (Oliven-, Raps- oder Sonnenblumenöl)",
+          "owner": "GG",
+          "optional": false
+        },
+        {
+          "text": "50 g Sonnenblumenkerne",
+          "owner": "GG",
+          "optional": false
+        },
+        {
+          "text": "20 g Essig (z. B. Apfelessig)",
+          "owner": "GG",
+          "optional": false
+        },
+        {
+          "text": "1 TL Salz",
+          "owner": "GG",
+          "optional": false
+        },
+        {
+          "text": "½ TL Pfeffer",
+          "owner": "GG",
+          "optional": false
+        },
+        {
+          "text": "1 TL Senf",
+          "owner": "GG",
+          "optional": false
+        },
+        {
+          "text": "200 g Kohlrabi, in Stücken",
           "owner": "TR",
           "optional": false
         },
         {
-          "text": "1 Knoblauchzehe",
+          "text": "200 g Möhren, in Stücken",
+          "owner": "TR",
+          "optional": false
+        },
+        {
+          "text": "100 g Knollensellerie, in Stücken",
+          "owner": "TR",
+          "optional": false
+        },
+        {
+          "text": "½ Bund Basilikum, abgezupft",
+          "owner": "TR",
+          "optional": false
+        },
+        {
+          "text": "200 g Zucchini, in Stücken",
+          "owner": "TR",
+          "optional": false
+        },
+        {
+          "text": "1 Apfel, in Stücken",
+          "owner": "TR",
+          "optional": false
+        },
+        {
+          "text": "150 g Cherrytomaten, halbiert",
+          "owner": "TR",
+          "optional": false
+        }
+      ]
+    },
+    {
+      "name": "Mango-Lassi",
+      "category": "Perfekt fürs Picknick",
+      "ingredients": [
+        {
+          "text": "500 g Naturjoghurt",
+          "owner": "GG",
+          "optional": false
+        },
+        {
+          "text": "50–100 g Milch (optional)",
+          "owner": "GG",
+          "optional": true
+        },
+        {
+          "text": "500 g Mango, reif, in Stücken",
+          "owner": "TR",
+          "optional": false
+        },
+        {
+          "text": "1–2 Zitronen (für 50 g frisch gepressten Zitronensaft)",
+          "owner": "TR",
+          "optional": false
+        }
+      ]
+    },
+    {
+      "name": "Schnelle Möhrenbrötchen zum Mitnehmen",
+      "category": "Perfekt fürs Picknick",
+      "ingredients": [
+        {
+          "text": "130 g Milch",
+          "owner": "GG",
+          "optional": false
+        },
+        {
+          "text": "650 g Weizenmehl Type 550",
+          "owner": "GG",
+          "optional": false
+        },
+        {
+          "text": "150 g Naturjoghurt (3,5 % Fett)",
+          "owner": "GG",
+          "optional": false
+        },
+        {
+          "text": "1 ½ TL Salz",
+          "owner": "GG",
+          "optional": false
+        },
+        {
+          "text": "1 Prise Zucker",
+          "owner": "GG",
+          "optional": false
+        },
+        {
+          "text": "Backpapier",
+          "owner": "GG",
+          "optional": false
+        },
+        {
+          "text": "200 g Möhren, in Stücken",
+          "owner": "TR",
+          "optional": false
+        },
+        {
+          "text": "1 Würfel Hefe",
+          "owner": "TR",
+          "optional": false
+        }
+      ]
+    },
+    {
+      "name": "Weißkohlrohkost",
+      "category": "Perfekt fürs Picknick",
+      "ingredients": [
+        {
+          "text": "40 g Öl (z. B. Oliven-, Raps- oder Sonnenblumenöl)",
+          "owner": "GG",
+          "optional": false
+        },
+        {
+          "text": "15 g Essig (z. B. Apfelessig)",
+          "owner": "GG",
+          "optional": false
+        },
+        {
+          "text": "1 TL Salz",
+          "owner": "GG",
+          "optional": false
+        },
+        {
+          "text": "½ TL Zucker",
+          "owner": "GG",
+          "optional": false
+        },
+        {
+          "text": "¼ TL Pfeffer",
+          "owner": "GG",
+          "optional": false
+        },
+        {
+          "text": "200 g Weißkohl, in Stücken",
+          "owner": "TR",
+          "optional": false
+        },
+        {
+          "text": "200 g Paprika, gemischt, in Stücken",
+          "owner": "TR",
+          "optional": false
+        },
+        {
+          "text": "100 g Möhren, in Stücken",
+          "owner": "TR",
+          "optional": false
+        },
+        {
+          "text": "60 g Tomate, geviertelt",
+          "owner": "TR",
+          "optional": false
+        }
+      ]
+    },
+    {
+      "name": "Kirscheis mit Schokostücken",
+      "category": "Grillen mit Family & Friends",
+      "ingredients": [
+        {
+          "text": "400 g TK-Kirschen, gefroren",
+          "owner": "GG",
+          "optional": false
+        },
+        {
+          "text": "100 g Sahne (oder Joghurt oder Quark, siehe Tipps)",
+          "owner": "GG",
+          "optional": false
+        },
+        {
+          "text": "50 g Puderzucker (oder 50 g Agavendicksaft)",
+          "owner": "GG",
+          "optional": false
+        },
+        {
+          "text": "100 g Zartbitter-Schokolade, in Stücken",
+          "owner": "TR",
+          "optional": false
+        }
+      ]
+    },
+    {
+      "name": "Focaccia mit Tomaten",
+      "category": "Grillen mit Family & Friends",
+      "ingredients": [
+        {
+          "text": "500 g Mehl (Weizenmehl Type 405 oder 550)",
+          "owner": "GG",
+          "optional": false
+        },
+        {
+          "text": "40 g Öl (z. B. Oliven- oder Sonnenblumenöl)",
+          "owner": "GG",
+          "optional": false
+        },
+        {
+          "text": "1 ½ TL Salz",
+          "owner": "GG",
+          "optional": false
+        },
+        {
+          "text": "Backpapier",
+          "owner": "GG",
+          "optional": false
+        },
+        {
+          "text": "Grobes Salz zum Bestreuen",
+          "owner": "GG",
+          "optional": false
+        },
+        {
+          "text": "1 Würfel Hefe",
+          "owner": "TR",
+          "optional": false
+        },
+        {
+          "text": "1–2 Tomaten oder 70 g Cocktailtomaten, halbiert",
+          "owner": "TR",
+          "optional": false
+        },
+        {
+          "text": "ein paar frische Basilikumblätter (optional)",
           "owner": "TR",
           "optional": true
         }
       ]
     },
     {
-      "name": "Tomaten-Frischkäse-Dip",
-      "category": "Sommer-Dip",
+      "name": "Möhrensalat mit Thermomix Gemüse Styler®",
+      "category": "Grillen mit Family & Friends",
       "ingredients": [
         {
-          "text": "150 g Frischkäse",
+          "text": "40 g Sonnenblumenöl",
           "owner": "GG",
           "optional": false
         },
         {
-          "text": "2 EL Tomatenmark",
-          "owner": "TR",
-          "optional": false
-        }
-      ]
-    },
-    {
-      "name": "Zitronenlimonade",
-      "category": "Sommer-Getränk",
-      "ingredients": [
-        {
-          "text": "500 ml Mineralwasser",
+          "text": "25 g Essig",
           "owner": "GG",
           "optional": false
         },
         {
-          "text": "2 Zitronen",
+          "text": "20 g Zitronensaft",
+          "owner": "GG",
+          "optional": false
+        },
+        {
+          "text": "10 g Senf",
+          "owner": "GG",
+          "optional": false
+        },
+        {
+          "text": "½ TL Salz",
+          "owner": "GG",
+          "optional": false
+        },
+        {
+          "text": "¼ TL Pfeffer",
+          "owner": "GG",
+          "optional": false
+        },
+        {
+          "text": "600 g Möhren, geschält, Enden oben und unten abgeschnitten",
           "owner": "TR",
           "optional": false
         },
         {
-          "text": "frische Minze",
+          "text": "25 g Schalotte, halbiert",
           "owner": "TR",
-          "optional": true
+          "optional": false
+        },
+        {
+          "text": "3 Stängel Petersilie, abgezupft",
+          "owner": "TR",
+          "optional": false
         }
       ]
     }
