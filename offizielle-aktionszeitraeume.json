@@ -5,16 +5,16 @@
       "name": "Summer Date",
       "slots": [
         {
-          "label": "Sommerlicher Kaffeeklatsch",
-          "category": "Sommerlicher Kaffeeklatsch"
+          "label": "Getränk / Eis",
+          "category": "Summer Date – Getränk / Eis"
         },
         {
-          "label": "Perfekt fürs Picknick",
-          "category": "Perfekt fürs Picknick"
+          "label": "Gebäck / Brot",
+          "category": "Summer Date – Gebäck / Brot"
         },
         {
-          "label": "Grillen mit Family & Friends",
-          "category": "Grillen mit Family & Friends"
+          "label": "Salat",
+          "category": "Summer Date – Salat"
         }
       ],
       "recipeNames": [
@@ -33,7 +33,7 @@
   "recipes": [
     {
       "name": "Geeister Kaffeeschaum",
-      "category": "Sommerlicher Kaffeeklatsch",
+      "category": "Summer Date – Getränk / Eis",
       "ingredients": [
         {
           "text": "80 g Zucker",
@@ -59,7 +59,7 @@
     },
     {
       "name": "Haferflocken-Kokos-Cookies",
-      "category": "Sommerlicher Kaffeeklatsch",
+      "category": "Summer Date – Gebäck / Brot",
       "ingredients": [
         {
           "text": "120 g Butter",
@@ -105,7 +105,7 @@
     },
     {
       "name": "Schneller Gemüsesalat",
-      "category": "Sommerlicher Kaffeeklatsch",
+      "category": "Summer Date – Salat",
       "ingredients": [
         {
           "text": "60 g Öl (Oliven-, Raps- oder Sonnenblumenöl)",
@@ -176,7 +176,7 @@
     },
     {
       "name": "Mango-Lassi",
-      "category": "Perfekt fürs Picknick",
+      "category": "Summer Date – Getränk / Eis",
       "ingredients": [
         {
           "text": "500 g Naturjoghurt",
@@ -202,7 +202,7 @@
     },
     {
       "name": "Schnelle Möhrenbrötchen zum Mitnehmen",
-      "category": "Perfekt fürs Picknick",
+      "category": "Summer Date – Gebäck / Brot",
       "ingredients": [
         {
           "text": "130 g Milch",
@@ -248,7 +248,7 @@
     },
     {
       "name": "Weißkohlrohkost",
-      "category": "Perfekt fürs Picknick",
+      "category": "Summer Date – Salat",
       "ingredients": [
         {
           "text": "40 g Öl (z. B. Oliven-, Raps- oder Sonnenblumenöl)",
@@ -299,7 +299,7 @@
     },
     {
       "name": "Kirscheis mit Schokostücken",
-      "category": "Grillen mit Family & Friends",
+      "category": "Summer Date – Getränk / Eis",
       "ingredients": [
         {
           "text": "400 g TK-Kirschen, gefroren",
@@ -325,7 +325,7 @@
     },
     {
       "name": "Focaccia mit Tomaten",
-      "category": "Grillen mit Family & Friends",
+      "category": "Summer Date – Gebäck / Brot",
       "ingredients": [
         {
           "text": "500 g Mehl (Weizenmehl Type 405 oder 550)",
@@ -371,7 +371,7 @@
     },
     {
       "name": "Möhrensalat mit Thermomix Gemüse Styler®",
-      "category": "Grillen mit Family & Friends",
+      "category": "Summer Date – Salat",
       "ingredients": [
         {
           "text": "40 g Sonnenblumenöl",
